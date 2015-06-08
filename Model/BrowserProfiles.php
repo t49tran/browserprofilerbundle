@@ -63,14 +63,14 @@ class BrowserProfiles {
     }
 
     /**
-     * Set is_table
+     * Set is_tablet
      *
-     * @param boolean $isTable
+     * @param boolean $isTablet
      * @return BrowserProfiles
      */
-    public function setIsTablet($isTable)
+    public function setIsTablet($isTablet)
     {
-        $this->is_table = $isTable;
+        $this->is_tablet = $isTablet;
 
         return $this;
     }
@@ -82,7 +82,7 @@ class BrowserProfiles {
      */
     public function getIsTablet()
     {
-        return $this->is_table;
+        return $this->is_tablet;
     }
 
     /**

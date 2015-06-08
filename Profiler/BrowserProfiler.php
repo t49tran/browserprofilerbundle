@@ -113,7 +113,7 @@ class BrowserProfiler {
         /**
          * Browser type: Crawler returned from the API
          */
-        if($user_info->browser_type=="Crawler")
+        if($user_info->agent_type=="Crawler")
             return true;
 
         return false;
@@ -138,8 +138,6 @@ class BrowserProfiler {
                 "uas" => $user_agent
             )
         );
-
-        var_dump($response->body);
 
         return $response->body;
     }
