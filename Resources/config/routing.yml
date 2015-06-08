@@ -1,0 +1,3 @@
+browser_profiler_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BrowserProfilerBundle:Default:index }

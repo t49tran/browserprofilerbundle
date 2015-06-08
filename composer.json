@@ -1,0 +1,31 @@
+{
+  "name" : "t49tran/browserprofilerbundle",
+  "description" : "Simple Browser Profiler Symfony bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Duong Tran",
+    "email" : "tranthaiduong1210@gmail.com"
+  }],
+  "keywords" : [
+    "browser profiler symfony bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+    "mashape/unirest-php" : "2.6.0"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "t49tran\\WhoIsToJsonBundle" : ""
+    }
+  },
+  "target-dir" : "t49tran/BrowserProfilerBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0-dev"
+    }
+  }
+}

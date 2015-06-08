@@ -1,0 +1,7 @@
+services:
+#    browser_profiler.example:
+#        class: t49tran\BrowserProfilerBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+     browser_profiler:
+          class: t49tran\BrowserProfilerBundle\Profiler\BrowserProfiler
+          arguments: [%user_agent_api_end_point%]
