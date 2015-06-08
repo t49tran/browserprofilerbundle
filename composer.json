@@ -17,7 +17,7 @@
   },
   "autoload" : {
     "psr-0" : {
-      "t49tran\\WhoIsToJsonBundle" : ""
+      "t49tran\\BrowserProfilerBundle" : ""
     }
   },
   "target-dir" : "t49tran/BrowserProfilerBundle",
